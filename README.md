@@ -14,28 +14,28 @@ le programme source est en C, il est annoté, ce qui permet de bien voir le rôl
 pour le reste, voici les fonctionnalités du programme (ici, pour la version linux):  
 - lire le fichier de note :  
 
-    $>  ./notecom_l64 -r  
+      $>  ./notecom_l64 -r  
   
 pour le moment, si le fichier de note n'existe pas, le système va retourner une erreur de type 'dump core'. ce cas de figure va être résolue dans la prochaine mise à jour.  
   
 - écrire un message dans le fichier de note :  
 
-    $>  ./notecom_l64 -s "hello world !"
-    $>
+      $>  ./notecom_l64 -s "hello world !"
+      $>
     
 - écrire 'à la volée' dans le fichier de note :  
 
-    $>  ./notecom_l64 -e
-    Ncom >>> vous pouvez écrire un message après l'autre dans ce mode...
-    Ncom >>> pour finir il suffit d'écrire 'stop'
-    Ncom >>> stop
-    $>
+      $>  ./notecom_l64 -e
+      Ncom >>> vous pouvez écrire un message après l'autre dans ce mode...
+      Ncom >>> pour finir il suffit d'écrire 'stop'
+      Ncom >>> stop
+      $>
 
 - réinitialiser le fichier de note :  
 
-    $>  ./notecom_l64 -c
-    ...le fichier notecom.txt a été vidé...
-    $>
+      $>  ./notecom_l64 -c
+      ...le fichier notecom.txt a été vidé...
+      $>
     
 à savoir que la réinitialisation du fichier de note écrase les données précédentes.  
   
